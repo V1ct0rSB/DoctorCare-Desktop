@@ -1,0 +1,47 @@
+wrapper {
+  width: 136.6rem;
+  height: 26.8rem;
+  margin: auto;
+}
+
+footer {
+  background: var(--color02);
+}
+
+footer .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 3rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .logo h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+footer h3 span {
+  font-weight: 700;
+}
+
+footer p {
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  margin-top: 2.4rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+  margin-top: 6rem;
+}

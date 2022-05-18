@@ -1,0 +1,152 @@
+.wrapper {
+  width: 136.6rem;
+  margin-inline: auto;
+}
+
+section {
+  padding-block: 16rem;
+}
+
+/* ----------Services---------- */
+#services header h4 {
+  color: var(--color02);
+
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+}
+
+#services header h2 {
+  width: 49.7rem;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  text-align: center;
+
+  margin: auto;
+  margin-top: 1.6rem;
+  margin-bottom: 6.4rem;
+}
+
+/* ----------About---------- */
+#about {
+  background: var(--color04);
+  height: 73.4rem;
+}
+
+#about .wrapper header {
+  width: 57.3rem;
+  margin-left: 69rem;
+}
+
+#about header h4 {
+  color: var(--color02);
+  padding-top: 20.3rem;
+
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+}
+
+#about header h2 {
+  width: 49.7rem;
+  margin-top: 1.6rem;
+
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.2rem;
+}
+
+#about .wrapper p {
+  width: 57.3rem;
+  margin-top: 1.6rem;
+
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+}
+
+#about .content img {
+  width: 48.0rem;
+  height: 41.4rem;
+
+  position: absolute;
+  left: 40.0rem;
+  top: 238.5rem;
+}
+
+/* ----------Contact---------- */
+#contact {
+  background: white;
+  height: 614px;
+}
+
+#contact .wrapper header {
+  width: 40.3rem;
+  margin-left: 13.5rem;
+}
+
+#contact h2 {
+  width: 40.4rem;
+  padding-top: 19.8rem;
+
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  margin-bottom: 4rem;
+}
+
+#contact ul li {
+  list-style: none;
+  margin-top: 1.6rem;
+
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+#contact ul i {
+  color: var(--color02);
+}
+
+#contact button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+
+  padding: 1.6rem 3.2rem;
+  border-radius: 4rem;
+  border: none;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+
+  color: white;
+  background: var(--color02);
+
+  transition: background 300ms;
+}
+
+#contact button:hover{
+  background: var(--color03);
+}
+
+#contact img {
+  width: 57.5rem;
+  height: 37.9rem;
+
+  position: absolute;
+  left: 95.2rem;
+  top: 342.2rem;
+}

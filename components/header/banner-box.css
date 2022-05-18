@@ -1,0 +1,15 @@
+.banner-box {
+  width: 120rem;
+  height: 21rem;
+
+  margin-inline: auto;
+  margin-top: 8.4rem;
+
+  background: var(--color04);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 1.0rem;
+}

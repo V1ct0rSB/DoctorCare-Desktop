@@ -1,0 +1,25 @@
+.scroll {
+  background-color: var(--color02);
+}
+
+.scroll .logo a,
+.scroll .logo span {
+  color: white;
+}
+
+.scroll .main-nav .menu a {
+  color: white;
+}
+
+.scroll .main-nav button {
+  background: var(--color02);
+  border: 1px solid white;
+  color: white;
+
+  transition: background 300ms;
+}
+
+.scroll .main-nav button:hover{
+  background: var(--color03);
+  border: 1px solid white;
+}

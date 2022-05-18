@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+
+  height: 7.2rem;
+
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  z-index: 100;
+}
+
+.main-nav {
+  width: 136.6rem;
+  margin-inline: auto;
+}
+
+nav .main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav button {
+  padding: 1rem 2.4rem;
+  border: 1px solid var(--color02);
+  border-radius: 4rem;
+
+  background: var(--color01);
+  color: var(--color02);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background 300ms;
+}
+
+nav button:hover {
+  background: var(--color02);
+  color: white;
+}

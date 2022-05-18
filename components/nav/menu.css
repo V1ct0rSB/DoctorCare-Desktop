@@ -1,0 +1,21 @@
+.menu li {
+  display: inline-flex;
+  margin-right: 3.2rem;
+  margin-block: 2.5rem;
+}
+
+.menu a {
+  color: var(--color02);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+.menu a:hover {
+  color: var(--color02);
+
+  text-shadow: 0 0 1px; /* "bold" */
+  text-decoration: underline 0.2rem;
+  text-underline-offset: 2rem;
+}
